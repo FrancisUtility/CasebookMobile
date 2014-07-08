@@ -1,0 +1,5 @@
+Divider with text
+<div class="divider clearfix">
+    <hr />
+    <span>Forget password?</span>
+</div>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Casebook</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/jquery.mobile.flatui.css">
+        <link rel="stylesheet" href="css/Global-Style.css">
+        <link rel="stylesheet" href="css/index-layout.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div data-role="content" role="main">
+            <div class="ui-grid-a logocontainer clearfix">
+                <img src="css/images/cb_logo.png"/>
+            </div>
+            <fieldset class="ui-grid-a logincontainer" name="login">
+                <h3>Login your account</h3>
+                <input type="text" placeholder="Enter roll number here." />
+                <input type="password" placeholder="Enter password here." />
+                <button data-theme="f">Login</button>
+                <button data-role="link" data-theme="e" data-type="signupcontainer">Sign up</button>
+                <a href="#" class="pull-left" data-type="contactus">Contact us</a>
+                <a href="#" class="pull-right" data-type="resetpassword">Forget password?</a>
+            </fieldset>
+            <fieldset class="ui-grid-a signupcontainer hide">
+                <h3>Join Today</h3>
+                <p>Please provide the following information to proceed to your registration.</p>
+                <input type="text" placeholder="Enter your roll number" />
+                <input type="text" placeholder="Enter your birth date" />
+                <button data-theme="e">Validate</button>
+                <a href="#" class="pull-left" data-type="contactus">Contact us</a>
+                <a href="#" class="pull-right" data-type="logincontainer">Login</a>
+            </fieldset>
+            <fieldset class="ui-grid-a resetpassword hide">
+                <h3>Reset your password</h3>
+                <p>Enter your Email below. We will send you an Email with a link to reset your password.</p>
+                <input type="text" placeholder="Enter your Email Address" />
+                <button data-theme="e">Submit</button>
+                <a href="#" class="pull-left" data-type="contactus">Contact us</a>
+                <a href="#" class="pull-right" data-type="logincontainer">Login</a>
+            </fieldset>
+            <fieldset class="ui-grid-a contactus hide">
+                <p>Send us your concerns or suggestion.</p>
+                <input type="text" placeholder="Email Address" />
+                <input type="text" placeholder="Roll number" />
+                <input type="text" placeholder="Contact # (optional)" />
+                <textarea placeholder="Message"></textarea>
+                <button data-theme="e">Submit</button>
+                <a href="#" class="pull-left" data-type="signupcontainer">Sign up</a>
+                <a href="#" class="pull-right" data-type="logincontainer">Login</a>
+            </fieldset>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/jquery.mobile-1.4.0-rc.1.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>

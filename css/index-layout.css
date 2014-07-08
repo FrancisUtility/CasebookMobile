@@ -1,0 +1,26 @@
+.logincontainer a{
+
+    margin-top:20px;
+}
+
+
+.logincontainer .clearfix{
+    margin-top:20px;
+    float:left;
+}
+
+.logocontainer{
+    margin-left:29%;
+}
+
+.signupcontainer p,.resetpassword p,.contactus p{
+    font-size:13px;
+}
+
+.contactus textarea{
+    resize: none;
+    height:150px;
+}
+
+
+
