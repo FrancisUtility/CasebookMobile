@@ -27,3 +27,149 @@ a:hover{
 .pull-right{
     float:right;
 }
+.circle{
+    border-radius: 150px !important;
+    -webkit-border-radius: 150px !important;
+    -moz-border-radius: 150px !important;
+
+}
+
+.cb-menu-item a{
+    color:white;
+}
+
+#nav-panel,#nav-contact{
+    background-color: #202240;
+}
+.cb-menu{
+    margin:0px !important;
+    padding:15px !important;
+    color:white;
+}
+.cb-menu .cb-menu-subheader{
+    margin-top:30px;
+}
+.cb-menu-subheader label{
+    font-size:13px !important;
+    color:#7C7D8A;
+    padding-bottom:5px;
+    border-bottom: 1px solid #7C7D8A ;
+}
+.cb-menu .cb-menu-title{
+    font-family: segoe ui;
+    margin-bottom:30px;
+}
+.cb-menu .cb-menu-item{
+    padding-top:10px;
+    padding-bottom:5px;
+    border-bottom: 1px solid #595A66 ;
+}
+.cb-menu .cb-menu-item:hover{
+    cursor: pointer;
+    background-color: #3f415a;
+}
+.cb-menu .cb-menu-item:active{
+    background-color: #64678e;
+}
+.cb-menu .cb-menu-item span,.cb-menu .cb-menu-item label{
+    float:left;
+}
+.cb-menu .cb-menu-item label{
+    margin-top:-3px;
+    margin-left:5px;
+}
+.cb-menu .cb-menu-lastitem{
+    border:none ;
+}
+.cb-menu .cb-menu-title img,.cb-menu .cb-menu-title label{
+    float:left;
+}
+.cb-menu .cb-menu-title img{
+    width:30px;
+    height: 30px;
+}
+.cb-menu .cb-menu-title label{
+    margin-left:10px;
+    font-weight: 600;
+}
+.cb-menu li{
+    list-style-type: none;
+}
+.ui-panel-inner{
+    padding:0px !important;
+}
+
+
+#nav-contact .searchfield{
+    border:none;
+    color:white;
+    border-bottom: 1px solid #7C7D8A;
+}
+#nav-contact .ui-input-text{
+    background:transparent;
+    border:none !important;
+    border-radius:0;
+    margin:0px;
+}
+#nav-contact .ui-panel-inner{
+    border:none;
+}
+
+.cb-profile{
+    padding:5px;
+}
+.cb-profile .cb-static-info{
+    padding:5px;
+    background-color: #2c3e50;
+    border:1px solid #2c3e50;
+    color:white;
+}
+.cb-profile .cb-static-info img{
+    width: 100px;
+    height: 100px;
+    float:left;
+}
+.cb-profile .cb-static-info .cb-profile-static{
+    margin-left:5px;
+    float:left;
+}
+.cb-icon-click,.cb-divider-title{
+    font-size:12px;
+}
+.cb-divider-title{
+    float: left;
+}
+.cb-icon-click{
+    float: right;
+    margin-top:5px;
+    color: white;
+}
+.cb-icon-click:hover{
+    cursor: pointer;
+}
+
+.cb-icon-click:active{
+    margin-top:6px;
+}
+
+.cb-profile .cb-static-info .cb-profile-static label{
+    padding:0px;
+    margin:0px;
+}
+.cb-profile .cb-static-info .cb-profile-static label small{
+    font-size:12px;
+}
+.cb-profile .cb-static-info .cb-profile-static span{
+    font-weight: bold;
+    font-size:13px;
+}
+
+.cb-lvdata{
+    margin-top:20px;
+    border-radius: 0px;
+}
+.ui-content{padding:0px;}
+.cb-wrap{
+    text-overflow:clip !important;
+    white-space:normal !important;
+}

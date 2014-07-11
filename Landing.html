@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Casebook</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/jquery.mobile.flatui.css">
+    <link rel="stylesheet" href="css/Global-Style.css">
+    <link rel="stylesheet" href="IcoMoon/style.css">
+
+</head>
+
+<body>
+
+
+
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div data-position="right" data-role="panel" data-position-fixed="true" data-display="push" id="nav-contact">
+    <input class="searchfield" type="text" placeholder="Search colleagues here..." />
+</div>
+
+
+
+<div data-role="page" id="profile">
+    <!-- the wrapper -->
+    <div data-role="header" data-position="fixed" data-theme="a">
+        <a href="#nav-panel" class="ui-btn ui-shadow ui-corner-all ui-icon-bars ui-btn-icon-notext">Menu</a>
+        <h1>Profile</h1>
+        <a href="#nav-contact" class="ui-btn ui-shadow ui-corner-all ui-icon-user ui-btn-icon-notext">Contact</a>
+    </div>
+    <div id="profilecontect" role="main" class="ui-content jqm-content jqm-fullwidth">
+        <div class="cb-profile clearfix">
+            <div class="cb-static-info clearfix">
+                <img src="css/images/cb_logo.png" class="cb-display-img">
+                <div class="cb-profile-static">
+                <label><span>Casebook Administrator</span></label>
+                <label><small>Roll number:</small><span> 00000</span></label>
+                <label><small>Chapter:</small><span> Marikina City Chapter</span></label>
+                <label><small>IBP Number:</small><span> 1234567</span></label>
+                </div>
+            </div>
+
+            <ul class="cb-lvdata" data-role="listview" data-inset="true" data-theme="a">
+                <li data-role="list-divider"><label class="cb-divider-title">Biography</label><span class="cb-icon-click icon-pencil"></span></li>
+                <li class="cb-wrap">
+                    <small>Hey Stephen, if you're available at 10am tomorrow, we've got a meeting with the jQuery team</small>
+                </li>
+            </ul>
+            <ul class="cb-lvdata" data-role="listview" data-inset="true" data-theme="a">
+                <li data-role="list-divider"><label class="cb-divider-title">Contact Information</label> <span class="cb-icon-click icon-pencil"></span></li>
+                <li class="cb-wrap">
+                    <small><b>Address</b></small><br>
+                    <small>Blk 16 Lot 18, Yakal street  christina homes camarin caloocan city</small>
+                </li>
+                <li class="cb-wrap">
+                    <small><b>Website</b></small><br>
+                    <small>ibp.casebook.ph</small>
+                </li>
+            </ul>
+            <ul class="cb-lvdata" data-role="listview" data-inset="true" data-theme="a">
+                <li data-role="list-divider"><label class="cb-divider-title">Links</label> <span class="cb-icon-click icon-pencil"></span></li>
+                <li>
+                    <small><a href="https://www.facebook.com/napakapangit.qtalga">https://www.facebook.com/napakapangit.qtalga</a></small>
+                </li>
+                <li >
+                    <small><a href="https://www.linkedin.com/pub/francisco-cebu-jr/56/b16/b32">https://www.linkedin.com/pub/francisco-cebu-jr/56/b16/b32</a></small>
+                </li>
+            </ul>
+            <ul class="cb-lvdata" data-role="listview" data-inset="true" data-theme="a">
+                <li data-role="list-divider"><label class="cb-divider-title">Email address</label> <span class="cb-icon-click icon-pencil"></span></li>
+                <li>
+                    <h2>francis.cebu@basecamptech.ph</h2>
+                    <p>Type: <strong>Personal</strong></p>
+                    <p>Status: <strong>Not Validated</strong></p>
+                    <p>Privacy Setting: <strong>Private</strong></p>
+                </li>
+                <li>
+                    <h2>rhanzies_62@yahoo.com</h2>
+                    <p>Type: <strong>Personal</strong></p>
+                    <p>Status: <strong>Validated</strong></p>
+                    <p>Privacy Setting: <strong>Public</strong></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div data-role="page" id="payments" >
+    <!-- the wrapper -->
+    <div data-role="header" data-theme="e">
+        <a href="#nav-panel" class="ui-btn ui-shadow ui-corner-all ui-icon-bars ui-btn-icon-notext">Menu</a>
+        <h1>Payments</h1>
+        <a href="#nav-contact" class="ui-btn ui-shadow ui-corner-all ui-icon-user ui-btn-icon-notext">Contact</a>
+    </div>
+    <div id="my-content">
+    </div>
+    <div id="my-footer">
+    </div>
+</div>
+
+<div data-role="panel" data-position-fixed="true" data-display="overlay" id="nav-panel">
+    <ul class="cb-menu clearfix" >
+        <li class="cb-menu-title clearfix">
+            <img src="css/images/cb_logo.png" class="circle"/>
+            <label>Casebook Administrator</label>
+        </li>
+        <li class="cb-menu-subheader"><label>PROFILE</label></li>
+        <li class="cb-menu-item clearfix">
+            <a href="#profile" rel="external">
+                <span class="icon-info"></span>
+                <label>Information</label>
+            </a>
+        </li>
+        <li class="cb-menu-item clearfix">
+            <span class="icon-pie"></span>
+            <label>Payments</label>
+        </li>
+        <li class="cb-menu-item clearfix">
+            <span class="icon-book"></span>
+            <label>MCLE</label>
+        </li>
+        <li class="cb-menu-subheader"><label>APPS</label></li>
+        <li class="cb-menu-item clearfix">
+            <span class="icon-briefcase"></span>
+            <label>Library App Lite</label>
+        </li>
+        <li class="cb-menu-item clearfix">
+            <span class="icon-cart"></span>
+            <label>Shopping cart</label>
+        </li>
+        <li class="cb-menu-subheader"><label>IBP SERVICES</label></li>
+        <li class="cb-menu-item clearfix">
+            <span class="icon-vcard"></span>
+            <label>Request IBP ID</label>
+        </li>
+        <li class="cb-menu-item clearfix">
+            <span class="icon-uniE678"></span>
+            <label>Subscription</label>
+        </li>
+        <li class="cb-menu-item clearfix">
+            <span class="icon-newspaper2"></span>
+            <label>Request Certificate</label>
+        </li>
+        <li class="cb-menu-subheader"><label>SETTINGS</label></li>
+        <li class="cb-menu-item cb-menu-lastitem clearfix">
+            <span class="icon-logout"></span>
+            <label>Logout</label>
+        </li>
+    </ul>
+</div>
+
+
+<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/jquery.mobile-1.4.0-rc.1.js"></script>
+<script src="js/main.js"></script>
+<script id="panel-init">
+    $(function() {
+        $( "body>[data-role='panel']" ).panel();
+        var panel = $('#nav-panel');
+        var height = $('#profile').height();
+        panel.css({height:(height+50) + 'px'});
+    });
+</script>
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X');ga('send','pageview');
+</script>
+
+</body>
+
+</html>

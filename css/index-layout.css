@@ -3,6 +3,9 @@
     margin-top:20px;
 }
 
+fieldset{
+    padding:10px !important;
+}
 
 .logincontainer .clearfix{
     margin-top:20px;
